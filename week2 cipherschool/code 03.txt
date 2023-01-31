@@ -1,0 +1,20 @@
+//Md Aftab Raza Ansari  12005279
+//code 3
+//constructor of app
+
+
+
+class App {
+    App(){
+         System.out.println("Constructor of App");
+    }
+}
+public class Test2 extends App{
+    Test2(){
+        System.out.println("Constructor of Test2");
+    }
+    public static void main(String[] args){
+        new Test2();
+   
+    }
+}
