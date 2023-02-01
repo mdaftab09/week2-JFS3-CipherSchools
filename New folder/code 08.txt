@@ -1,0 +1,27 @@
+//Md Aftab Raza Ansari 12005279
+//code 08
+// Exception handling
+
+
+
+import java.util.Scanner;
+public class test2 {
+    int n1,n2,result;
+    Scanner sc =new Scanner(System.in);
+    void calculate(){
+        System.out.println("Enter First Number");
+        n1=sc.nextInt();
+        
+        System.out.println("Enter Second Number");
+        n2 = sc.nextInt();
+        
+        result = n1/n2;
+        
+        System.out.println("The Division is "+result);
+    }
+    public static void main(String[] args){
+        Test2obj = new  Test2();
+        obj.calculate();
+        
+    }
+}
