@@ -1,0 +1,33 @@
+//Md Aftab Raza Ansari 12005279
+//code 43
+// Project Development and Explanation
+
+
+
+
+
+
+
+//program.java code
+
+package com.mycompany.mavenproject1;
+public class Program{
+    public static void main(String[] args){
+        NewJPanel app = new NewJPanel();
+        app.setD
+        app.setVisible(true);
+    }
+}
+
+//NewJFrame.java code
+@SuppressWarnings("Unchecked")
+private void jButtonActionPerfomed(java.awt.event.ActionEvent evt) {
+   //todo add your handling code here: 
+}
+public static void main(String args[]){
+    java.awt.EventQueue.invokeLater(new Runnable)){
+        public void run(){
+            new NewJFrame().setVisible(true);
+        }
+    });
+}
